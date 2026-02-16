@@ -110,8 +110,6 @@ const TeacherDashboard: React.FC = () => {
   );
 };
 
-// --- Composants Internes ---
-
 const StatBox: React.FC<StatCardProps> = ({ label, value, icon, color }) => {
   const colorMap = {
     blue: "text-blue-600 bg-blue-50",
